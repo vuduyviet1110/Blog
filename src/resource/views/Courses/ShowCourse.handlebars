@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+    <div class="col-3">
+        <h2><button>Review</button></h2>
+        <h2><button>Path</button></h2>
+        <h2><button>Rating</button></h2>
+    </div>
+    <div class="col-9">
+        <h1>Chi tiết về: {{course.name}}</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{course.videoId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div>Mô tả: {{course.description}}</div>
+    </div>
+    </div>
+</div>    
+
+
+</body>
+</html>

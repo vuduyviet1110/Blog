@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.Entire_wrapper {
+  position: relative;
+  min-height: 100%; }
+
+.MyPersonalLogo {
+  border: 8px groove lightslategray;
+  border-radius: 13px;
+  padding: 4px;
+  color: lightslategray;
+  font-weight: 500; }
+
+.AddCourse {
+  background-color: lightgreen;
+  color: #232220;
+  outline: none;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  display: block;
+  line-height: inherit; }
+
+.search_btn {
+  border: 2px groove lightslategray;
+  border-radius: 8px;
+  color: lightslategray; }
+  .search_btn:hover {
+    background-color: lightslategray;
+    color: white; }
+
+.footer {
+  width: 100%;
+  background-color: antiquewhite; }
+  .footer .footer_wrapper {
+    display: flex;
+    justify-content: space-around; }
+    .footer .footer_wrapper .footer_about {
+      max-width: 30%; }
+    .footer .footer_wrapper .footer_links a {
+      text-decoration: none;
+      color: black; }
+      .footer .footer_wrapper .footer_links a:hover {
+        color: #8b8787; }
+
+.copyRight {
+  text-align: center; }

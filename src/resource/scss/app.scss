@@ -1,0 +1,77 @@
+@import 'variables';
+html,body{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+.Entire_wrapper{
+    position:relative;
+    min-height:100%;
+}
+
+
+
+//Header
+.MyPersonalLogo{
+    border: 8px groove lightslategray;
+    border-radius: 13px;
+    padding: 4px;
+    color: lightslategray;
+    font-weight: 500;
+}
+
+.AddCourse{
+    background-color: lightgreen;
+    color: #232220;
+    outline: none;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    line-height: inherit;
+}
+.search_btn{
+    border: 2px groove lightslategray;
+    border-radius: 8px;
+    color:lightslategray;
+    &:hover{
+        background-color:lightslategray;
+        color:white;
+    }
+}
+
+.mainContent{
+}
+
+
+//Footer
+
+.footer{
+    width:100%;
+    background-color: antiquewhite;
+    .footer_wrapper{
+        display:flex;
+        justify-content:space-around;
+    
+        .footer_about{
+            max-width:30%;
+        }
+        .footer_cat{
+
+        }
+        .footer_links{
+            a{
+                text-decoration: none;
+                color:black;
+                &:hover{
+                    color:rgb(139, 135, 135);
+                }
+            }
+
+        }
+    }
+}
+
+.copyRight{
+    text-align:center;
+}
